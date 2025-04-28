@@ -1,0 +1,54 @@
+/* General Styles */
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Mapbox container */
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+/* Service Zones output box */
+#service-zones-output-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 320px;
+    max-height: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Title for the output */
+#service-zones-output-container h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    background-color: #6e599f;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Styling the GeoJSON output */
+#service-zones-output {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    max-height: 350px;
+    overflow-y: scroll;
+}
