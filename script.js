@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v12',
     center: [-98, 38.88],
     minZoom: 2,
-    zoom: 3
+    zoom: 5
 });
 
 let selectedCounties = new Set();
